@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSAM Rental - Aluguer de Viaturas de Luxo | Luxury Car Rental</title>
+    <meta name="description" content="YSAM Rental - Aluguer de viaturas de luxo com motorista profissional em Cabinda, Angola. Toyota Land Cruiser V8 e Prado para eventos e casamentos.">
+    <meta name="keywords" content="aluguer carros luxo, rental car luxury, Toyota Land Cruiser, wedding transport, Cabinda Angola, transporte VIP Cabinda, aluguer casamentos Angola">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="YSAM Rental - Aluguer de Viaturas de Luxo | Luxury Car Rental">
+    <meta property="og:description" content="YSAM Rental - Aluguer de viaturas de luxo com motorista profissional em Cabinda, Angola. Toyota Land Cruiser V8 e Prado para eventos e casamentos.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/YSAM%20Rental%20-%20For%20light%20Mode.webp">
+    <meta property="og:url" content="https://github.com/Almeida2019/YSAM-Rental">
+    <meta property="og:locale" content="pt_PT">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="YSAM Rental - Aluguer de Viaturas de Luxo | Luxury Car Rental">
+    <meta name="twitter:description" content="YSAM Rental - Aluguer de viaturas de luxo com motorista profissional em Cabinda, Angola.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/YSAM%20Rental%20-%20For%20light%20Mode.webp">
+    
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "YSAM Rental",
+      "description": "Aluguer de viaturas de luxo com motorista profissional em Cabinda, Angola. Especializados em Toyota Land Cruiser V8 e Prado para eventos, casamentos e transporte VIP.",
+      "url": "https://github.com/Almeida2019/YSAM-Rental",
+      "telephone": "+244-923-658-000",
+      "email": "info@grupoysam.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida Dr Agostinho Neto, Edifício da Sistec, 1º andar",
+        "addressLocality": "Cabinda",
+        "addressCountry": "AO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -5.5875,
+        "longitude": 12.188
+      },
+      "openingHours": "Mo-Su 00:00-23:59",
+      "priceRange": "250000-350000 Kz",
+      "image": "https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/YSAM%20Rental%20-%20For%20light%20Mode.webp",
+      "sameAs": [
+        "https://wa.me/244923658000",
+        "https://grupoysam.com/"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Yuri Sambo"
+      },
+      "serviceType": "Luxury Car Rental with Professional Driver",
+      "areaServed": "Cabinda, Angola",
+      "offers": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Toyota Land Cruiser V8 Rental",
+            "description": "Premium luxury SUV with panoramic sunroof and professional driver.",
+            "offers": {
+              "@type": "Offer",
+              "price": "350000",
+              "priceCurrency": "AOA",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Toyota Land Cruiser Prado Rental",
+            "description": "Luxury SUV with leather seats and GPS, professional driver included.",
+            "offers": {
+              "@type": "Offer",
+              "price": "250000",
+              "priceCurrency": "AOA",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+</head>
+<body class="light-mode" data-lang="pt">
+    <!-- Floating CTA Button (moved to nav-controls) -->
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img id="logo-img" src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/YSAM%20Rental%20-%20For%20light%20Mode.webp" alt="YSAM Rental - Logo da empresa de aluguer de viaturas de luxo | YSAM Rental - Luxury Car Rental Company Logo" loading="eager">
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-pt="Início" data-en="Home">Início</a>
+                <a href="#fleet" class="nav-link" data-pt="Frota" data-en="Fleet">Frota</a>
+                <a href="#services" class="nav-link" data-pt="Serviços" data-en="Services">Serviços</a>
+                <a href="#pricing" class="nav-link" data-pt="Preços" data-en="Pricing">Preços</a>
+                <a href="#about" class="nav-link" data-pt="Sobre Nós" data-en="About">Sobre Nós</a>
+                <a href="#contact" class="nav-link" data-pt="Contacto" data-en="Contact">Contacto</a>
+            </div>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+                    <span class="lang-text">EN</span>
+                </button>
+                <a href="#contact" class="cta-float" data-pt="Reserve Já" data-en="Book Now">Reserve Já</a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel Section -->
+    <section id="home" class="hero">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <!-- Slide 1 - Main Luxury Service -->
+                <div class="carousel-slide active" style="background-image: url('https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20Decorated.webp');" data-desktop-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20Decorated.webp" data-mobile-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Land%20Cruse%20Decorated-Mobile%20Version.webp">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1 class="slide-title" data-pt="SUV Executivo com Motorista Profissional" data-en="Executive SUV with Professional Driver">SUV Executivo com Motorista Profissional</h1>
+                        <p class="slide-subtitle" data-pt="Experimente o máximo em conforto e elegância com a nossa frota exclusiva" data-en="Experience the ultimate in comfort and elegance with our exclusive fleet">Experimente o máximo em conforto e elegância com a nossa frota exclusiva</p>
+                        <a href="#contact" class="cta-button primary" data-pt="Reserve Já" data-en="Book Now">Reserve Já</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - Wedding Services -->
+                <div class="carousel-slide" style="background-image: url('https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20with%20wedding%20deco%20-%20front%20view.webp');" data-desktop-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20with%20wedding%20deco%20-%20front%20view.webp" data-mobile-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruise%20SUV%20V8%20with%20wedding%20deco%20-%20front%20view-Mobile%20Version.webp">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1 class="slide-title" data-pt="Transporte Elegante para o Seu Casamento" data-en="Elegant Wedding Transportation">Transporte Elegante para o Seu Casamento</h1>
+                        <p class="slide-subtitle" data-pt="Torne o seu dia especial ainda mais memorável com o nosso serviço premium" data-en="Make your special day even more memorable with our premium service">Torne o seu dia especial ainda mais memorável com o nosso serviço premium</p>
+                        <a href="#contact" class="cta-button secondary" data-pt="Consulte Preços" data-en="Get Quote">Consulte Preços</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 - VIP Transport -->
+                <div class="carousel-slide" style="background-image: url('https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Panaromic%20Sunroof.webp');" data-desktop-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Panaromic%20Sunroof.webp" data-mobile-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Panaromic%20Sunroof-Mobile%20Version.webp">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1 class="slide-title" data-pt="Transporte VIP em Cabinda" data-en="VIP Transport in Cabinda">Transporte VIP em Cabinda</h1>
+                        <p class="slide-subtitle" data-pt="Serviço exclusivo com os mais altos padrões de qualidade e segurança" data-en="Exclusive service with the highest standards of quality and safety">Serviço exclusivo com os mais altos padrões de qualidade e segurança</p>
+                        <a href="#contact" class="cta-button primary" data-pt="Contacte-nos" data-en="Contact Us">Contacte-nos</a>
+                    </div>
+                </div>
+
+                <!-- Slide 4 - Professional Reliability -->
+                <div class="carousel-slide" style="background-image: url('https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20front%20view2.png.webp');" data-desktop-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20front%20view2.png.webp" data-mobile-bg="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Land%20Cruse%20Front%20view-Mobile%20Version.webp">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <h1 class="slide-title" data-pt="Confiança e Profissionalismo Garantidos" data-en="Guaranteed Trust and Professionalism">Confiança e Profissionalismo Garantidos</h1>
+                        <p class="slide-subtitle" data-pt="Mais de uma década de excelência no serviço ao cliente" data-en="Over a decade of excellence in customer service">Mais de uma década de excelência no serviço ao cliente</p>
+                        <a href="#services" class="cta-button secondary" data-pt="Saiba Mais" data-en="Learn More">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation -->
+            <div class="carousel-nav">
+                <button class="carousel-btn prev-btn" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button class="indicator active" data-slide="0"></button>
+                <button class="indicator" data-slide="1"></button>
+                <button class="indicator" data-slide="2"></button>
+                <button class="indicator" data-slide="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section id="fleet" class="fleet">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="A Nossa Frota Exclusiva" data-en="Our Exclusive Fleet">A Nossa Frota Exclusiva</h2>
+                <p class="section-subtitle" data-pt="SUV Executivo e Premium com motorista profissional incluído" data-en="Executive and Premium SUVs with professional driver included">SUV Executivo e Premium com motorista profissional incluído</p>
+            </div>
+
+            <!-- Toyota Land Cruiser V8 -->
+            <div class="vehicle-showcase">
+                <div class="vehicle-info">
+                    <h3 class="vehicle-title">Toyota Land Cruiser V8</h3>
+                    <div class="vehicle-price">
+                        <span class="price-local" data-pt="Dentro da localidade: 350.000 Kz" data-en="Within locality: 350,000 Kz">Dentro da localidade: 350.000 Kz</span>
+                        <span class="price-outside" data-pt="Fora da localidade: +200.000 Kz" data-en="Outside locality: +200,000 Kz">Fora da localidade: +200.000 Kz</span>
+                    </div>
+                    <div class="vehicle-features">
+                        <div class="feature">
+                            <i class="fas fa-user-tie"></i>
+                            <span data-pt="Motorista Profissional Incluído" data-en="Professional Driver Included">Motorista Profissional Incluído</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sun"></i>
+                            <span data-pt="Teto Solar Panorâmico" data-en="Panoramic Sunroof">Teto Solar Panorâmico</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-music"></i>
+                            <span data-pt="Sistema de Som Premium" data-en="Premium Sound System">Sistema de Som Premium</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-snowflake"></i>
+                            <span data-pt="Ar Condicionado" data-en="Air Conditioning">Ar Condicionado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-gallery">
+                    <div class="gallery-main">
+                        <img id="v8-main-img" src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20Decorated.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20Decorated.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Land%20Cruse%20Decorated-Mobile%20Version.webp" data-image-key="v8-decorated" alt="Toyota Land Cruiser V8 - Vista exterior decorada para eventos | Toyota Land Cruiser V8 - Decorated exterior view for events" loading="lazy">
+                    </div>
+                    <div class="gallery-thumbs">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20Decorated.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20Decorated.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Land%20Cruse%20Decorated-Mobile%20Version.webp" data-image-key="v8-decorated" alt="Toyota Land Cruiser V8 - Vista exterior | Toyota Land Cruiser V8 - Exterior view" class="thumb active" onclick="changeMainImage('v8-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Panaromic%20Sunroof.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Panaromic%20Sunroof.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Panaromic%20Sunroof-Mobile%20Version.webp" data-image-key="v8-sunroof" alt="Toyota Land Cruiser V8 - Teto solar panorâmico interior | Toyota Land Cruiser V8 - Panoramic sunroof interior" class="thumb" onclick="changeMainImage('v8-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Sound%20system.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Sound%20system.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20Sound%20system-Mobile%20Version.webp" data-image-key="v8-sound" alt="Toyota Land Cruiser V8 - Sistema de som premium interior | Toyota Land Cruiser V8 - Premium sound system interior" class="thumb" onclick="changeMainImage('v8-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20back%20seat.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20back%20seat.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruise%20SUV%20V8%20interior%20view%20-%20back%20seat-Mobile%20Version.webp" data-image-key="v8-back-seat" alt="Toyota Land Cruiser V8 - Banco traseiro interior | Toyota Land Cruiser V8 - Back seat interior" class="thumb" onclick="changeMainImage('v8-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20side%20view2.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruise%20SUV%20V8%20side%20view2.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Land%20Cruse%20Side%20View-Mobile%20Version.webp" data-image-key="v8-side" alt="Toyota Land Cruiser V8 - Vista lateral | Toyota Land Cruiser V8 - Side view" class="thumb" onclick="changeMainImage('v8-main-img', this)">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toyota Land Cruiser Prado -->
+            <div class="vehicle-showcase reverse">
+                <div class="vehicle-info">
+                    <h3 class="vehicle-title">Toyota Land Cruiser Prado</h3>
+                    <div class="vehicle-price">
+                        <span class="price-local" data-pt="Dentro da localidade: 250.000 Kz" data-en="Within locality: 250,000 Kz">Dentro da localidade: 250.000 Kz</span>
+                        <span class="price-outside" data-pt="Fora da localidade: +150.000 Kz" data-en="Outside locality: +150,000 Kz">Fora da localidade: +150.000 Kz</span>
+                    </div>
+                    <div class="vehicle-features">
+                        <div class="feature">
+                            <i class="fas fa-user-tie"></i>
+                            <span data-pt="Motorista Profissional Incluído" data-en="Professional Driver Included">Motorista Profissional Incluído</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span data-pt="Máxima Segurança" data-en="Maximum Safety">Máxima Segurança</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-couch"></i>
+                            <span data-pt="Bancos em Couro" data-en="Leather Seats">Bancos em Couro</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-route"></i>
+                            <span data-pt="GPS Integrado" data-en="Integrated GPS">GPS Integrado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-gallery">
+                    <div class="gallery-main">
+                        <img id="prado-main-img" src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Right%20Angle%20View.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Right%20Angle%20View.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruiser%20Prado%20-%20Right%20Angle%20View-Mobile%20Version.webp" data-image-key="prado-right-angle" alt="Toyota Land Cruiser Prado - Vista em ângulo direito | Toyota Land Cruiser Prado - Right angle view" loading="lazy">
+                    </div>
+                    <div class="gallery-thumbs">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Right%20Angle%20View.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Right%20Angle%20View.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruiser%20Prado%20-%20Right%20Angle%20View-Mobile%20Version.webp" data-image-key="prado-right-angle" alt="Toyota Land Cruiser Prado - Vista exterior em ângulo direito | Toyota Land Cruiser Prado - Exterior right angle view" class="thumb active" onclick="changeMainImage('prado-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Interior%20Front%20Seat.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Interior%20Front%20Seat.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruiser%20Prado%20-%20Interior%20Front%20Seat-Mobile%20Version.webp" data-image-key="prado-front-seat" alt="Toyota Land Cruiser Prado - Interior banco da frente | Toyota Land Cruiser Prado - Front seat interior" class="thumb" onclick="changeMainImage('prado-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Interior%20Back%20Seat.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Interior%20Back%20Seat.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruiser%20Prado%20-%20Interior%20Back%20Seat-Mobile%20Version.webp" data-image-key="prado-back-seat" alt="Toyota Land Cruiser Prado - Interior banco traseiro | Toyota Land Cruiser Prado - Back seat interior" class="thumb" onclick="changeMainImage('prado-main-img', this)">
+                        <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Rear%20View.webp" data-desktop-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Toyota%20Land%20Cruiser%20Prado%20-%20Rear%20View.webp" data-mobile-src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Mobile/Toyota%20Land%20Cruiser%20Prado%20-%20Rear%20View-Mobile%20Version.webp" data-image-key="prado-rear" alt="Toyota Land Cruiser Prado - Vista traseira | Toyota Land Cruiser Prado - Rear view" class="thumb" onclick="changeMainImage('prado-main-img', this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Os Nossos Serviços" data-en="Our Services">Os Nossos Serviços</h2>
+                <p class="section-subtitle" data-pt="Serviços premium com motorista profissional incluído" data-en="Premium services with professional driver included">Serviços premium com motorista profissional incluído</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="service-title" data-pt="Aluguer Geral" data-en="General Rental">Aluguer Geral</h3>
+                    <p class="service-description" data-pt="Serviço de aluguer para qualquer ocasião com viaturas de luxo e motorista profissional" data-en="Rental service for any occasion with luxury vehicles and professional driver">Serviço de aluguer para qualquer ocasião com viaturas de luxo e motorista profissional</p>
+                    <ul class="service-features">
+                        <li data-pt="Motorista profissional incluído" data-en="Professional driver included">Motorista profissional incluído</li>
+                        <li data-pt="Seguro completo" data-en="Full insurance">Seguro completo</li>
+                        <li data-pt="Serviço 24/7" data-en="24/7 service">Serviço 24/7</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="service-title" data-pt="Transporte para Casamentos" data-en="Wedding Transportation">Transporte para Casamentos</h3>
+                    <p class="service-description" data-pt="Torne o seu dia especial inesquecível com o nosso serviço exclusivo para casamentos" data-en="Make your special day unforgettable with our exclusive wedding service">Torne o seu dia especial inesquecível com o nosso serviço exclusivo para casamentos</p>
+                    <ul class="service-features">
+                        <li data-pt="Decoração especial incluída" data-en="Special decoration included">Decoração especial incluída</li>
+                        <li data-pt="Motorista uniformizado" data-en="Uniformed driver">Motorista uniformizado</li>
+                        <li data-pt="Serviço fotográfico" data-en="Photography service">Serviço fotográfico</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="service-title" data-pt="Serviço VIP" data-en="VIP Service">Serviço VIP</h3>
+                    <p class="service-description" data-pt="Experiência premium com atenção personalizada aos detalhes" data-en="Premium experience with personalized attention to details">Experiência premium com atenção personalizada aos detalhes</p>
+                    <ul class="service-features">
+                        <li data-pt="Acompanhamento personalizado" data-en="Personalized assistance">Acompanhamento personalizado</li>
+                        <li data-pt="Refreshments incluídos" data-en="Refreshments included">Refreshments incluídos</li>
+                        <li data-pt="Flexibilidade de horários" data-en="Flexible schedules">Flexibilidade de horários</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Tabela de Preços" data-en="Pricing Table">Tabela de Preços</h2>
+                <p class="section-subtitle" data-pt="Preços transparentes com motorista profissional incluído" data-en="Transparent pricing with professional driver included">Preços transparentes com motorista profissional incluído</p>
+            </div>
+
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Toyota Land Cruiser V8</h3>
+                        <div class="pricing-badge" data-pt="PREMIUM" data-en="PREMIUM">PREMIUM</div>
+                    </div>
+                    <div class="pricing-content">
+                        <div class="price-item">
+                            <span class="price-label" data-pt="Dentro da localidade" data-en="Within locality">Dentro da localidade</span>
+                            <span class="price-value">350.000 Kz</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-label" data-pt="Fora da localidade" data-en="Outside locality">Fora da localidade</span>
+                            <span class="price-value">+200.000 Kz</span>
+                        </div>
+                        <div class="pricing-features">
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Motorista profissional" data-en="Professional driver">Motorista profissional</span></div>
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Teto solar panorâmico" data-en="Panoramic sunroof">Teto solar panorâmico</span></div>
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Sistema de som premium" data-en="Premium sound system">Sistema de som premium</span></div>
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Ar condicionado" data-en="Air conditioning">Ar condicionado</span></div>
+                        </div>
+                        <a href="#contact" class="pricing-btn" data-pt="Reservar Agora" data-en="Book Now">Reservar Agora</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Toyota Land Cruiser Prado</h3>
+                        <div class="pricing-badge luxury" data-pt="EXECUTIVO" data-en="EXECUTIVE">EXECUTIVO</div>
+                    </div>
+                    <div class="pricing-content">
+                        <div class="price-item">
+                            <span class="price-label" data-pt="Dentro da localidade" data-en="Within locality">Dentro da localidade</span>
+                            <span class="price-value">250.000 Kz</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-label" data-pt="Fora da localidade" data-en="Outside locality">Fora da localidade</span>
+                            <span class="price-value">+150.000 Kz</span>
+                        </div>
+                        <div class="pricing-features">
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Motorista profissional" data-en="Professional driver">Motorista profissional</span></div>
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Máxima segurança" data-en="Maximum safety">Máxima segurança</span></div>
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="Bancos em pele" data-en="Leather seats">Bancos em pele</span></div>
+                            <div class="feature"><i class="fas fa-check"></i> <span data-pt="GPS integrado" data-en="Integrated GPS">GPS integrado</span></div>
+                        </div>
+                        <a href="#contact" class="pricing-btn" data-pt="Reservar Agora" data-en="Book Now">Reservar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <i class="fas fa-info-circle"></i>
+                <p data-pt="Todos os preços incluem motorista profissional obrigatório. Contacte-nos para mais informações sobre pacotes especiais para casamentos e eventos." data-en="All prices include mandatory professional driver. Contact us for more information about special packages for weddings and events.">Todos os preços incluem motorista profissional obrigatório. Contacte-nos para mais informações sobre pacotes especiais para casamentos e eventos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-pt="Sobre a YSAM Rental" data-en="About YSAM Rental">Sobre a YSAM Rental</h2>
+                    <p class="about-subtitle" data-pt="Excelência em mobilidade de luxo" data-en="Excellence in luxury mobility">Excelência em mobilidade de luxo</p>
+                    <p class="about-paragraph" data-pt="A YSAM Rental é uma empresa premium de aluguer de viaturas de luxo, parte das prestigiadas Organizações YSAM. Especializamo-nos em fornecer soluções de transporte de alta qualidade para clientes exigentes." data-en="YSAM Rental is a premium luxury vehicle rental company and part of the prestigious YSAM Organisations. We specialise in delivering high-quality transport solutions for discerning clients.">A YSAM Rental é uma empresa premium de aluguer de viaturas de luxo, parte das prestigiadas Organizações YSAM. Especializamo-nos em fornecer soluções de transporte de alta qualidade para clientes exigentes.</p>
+                    <p class="about-paragraph" data-pt="Com uma frota exclusiva de veículos Toyota Land Cruiser e uma equipa de motoristas profissionais altamente treinados, garantimos uma experiência de viagem incomparável em conforto, segurança e elegância." data-en="With an exclusive fleet of Toyota Land Cruiser vehicles and a team of highly trained professional drivers, we guarantee an unparalleled travel experience in comfort, safety and elegance.">Com uma frota exclusiva de veículos Toyota Land Cruiser e uma equipa de motoristas profissionais altamente treinados, garantimos uma experiência de viagem incomparável em conforto, segurança e elegância.</p>
+
+                    <div class="about-highlights">
+                        <h3 class="about-highlights-title" data-pt="Porquê Escolher-nos" data-en="Why Choose Us">Porquê Escolher-nos</h3>
+                        <ul class="about-list">
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <span data-pt="Frota de veículos de luxo sempre em perfeitas condições" data-en="Fleet of luxury vehicles always in immaculate condition">Frota de veículos de luxo sempre em perfeitas condições</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <span data-pt="Motoristas profissionais experientes e uniformizados" data-en="Experienced, uniformed professional drivers">Motoristas profissionais experientes e uniformizados</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <span data-pt="Serviço personalizado 24 horas por dia" data-en="Personalised service available 24 hours a day">Serviço personalizado 24 horas por dia</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <span data-pt="Preços transparentes sem custos ocultos" data-en="Transparent pricing with no hidden fees">Preços transparentes sem custos ocultos</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <span data-pt="Parte do respeitado Grupo YSAM" data-en="Part of the respected YSAM Group">Parte do respeitado Grupo YSAM</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <span data-pt="Compromisso com a excelência e satisfação do cliente" data-en="Commitment to excellence and customer satisfaction">Compromisso com a excelência e satisfação do cliente</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <aside class="about-profile">
+                    <div class="ceo-card">
+                        <div class="ceo-avatar">
+                            <img src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/Yuri%20Sambo%20-%20Founder%20and%20CEO%20of%20YSAM%20and%20YSAM%20Rental.webp" alt="Yuri Sambo - Fundador e CEO da YSAM Rental | Yuri Sambo - Founder and CEO of YSAM Rental" loading="lazy">
+                        </div>
+                        <h3 class="ceo-name">Yuri Sambo</h3>
+                        <p class="ceo-role" data-pt="Fundador & CEO" data-en="Founder & CEO">Fundador & CEO</p>
+                        <p class="ceo-bio" data-pt="Visionário empreendedor e líder das Organizações YSAM" data-en="Entrepreneurial visionary and leader of the YSAM Organisations">Visionário empreendedor e líder das Organizações YSAM</p>
+                        <div class="ceo-links">
+                            <a href="https://grupoysam.com/" class="ceo-link" target="_blank" rel="noopener noreferrer" aria-label="Website Grupo YSAM">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/ysam/" class="ceo-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn YSAM Rental">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="O Que Dizem os Nossos Clientes" data-en="What Our Clients Say">O Que Dizem os Nossos Clientes</h2>
+                <p class="section-subtitle" data-pt="Depoimentos de clientes satisfeitos com os nossos serviços premium" data-en="Testimonials from satisfied clients about our premium services">Depoimentos de clientes satisfeitos com os nossos serviços premium</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-pt="O serviço de transporte para o nosso casamento foi impecável. A viatura estava impecável e o motorista extremamente profissional." data-en="The wedding transportation service was impeccable. The vehicle was spotless and the driver extremely professional.">O serviço de transporte para o nosso casamento foi impecável. A viatura estava impecável e o motorista extremamente profissional.</p>
+                    <div class="testimonial-author">
+                        <h4 data-pt="Ana Silva" data-en="Ana Silva">Ana Silva</h4>
+                        <span data-pt="Casamento em Cabinda" data-en="Wedding in Cabinda">Casamento em Cabinda</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-pt="Excelente experiência VIP. Pontualidade, conforto e discrição perfeitos para o nosso evento corporativo." data-en="Excellent VIP experience. Perfect punctuality, comfort, and discretion for our corporate event.">Excelente experiência VIP. Pontualidade, conforto e discrição perfeitos para o nosso evento corporativo.</p>
+                    <div class="testimonial-author">
+                        <h4 data-pt="João Mendes" data-en="João Mendes">João Mendes</h4>
+                        <span data-pt="Evento Corporativo" data-en="Corporate Event">Evento Corporativo</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-pt="Recomendo vivamente o Toyota Land Cruiser V8. Viagem confortável e segura para fora da cidade." data-en="I highly recommend the Toyota Land Cruiser V8. Comfortable and safe trip outside the city.">Recomendo vivamente o Toyota Land Cruiser V8. Viagem confortável e segura para fora da cidade.</p>
+                    <div class="testimonial-author">
+                        <h4 data-pt="Maria Santos" data-en="Maria Santos">Maria Santos</h4>
+                        <span data-pt="Viagem Fora da Localidade" data-en="Out-of-Town Trip">Viagem Fora da Localidade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Perguntas Frequentes" data-en="Frequently Asked Questions">Perguntas Frequentes</h2>
+                <p class="section-subtitle" data-pt="Encontre respostas rápidas para as suas dúvidas mais comuns" data-en="Find quick answers to your most common questions">Encontre respostas rápidas para as suas dúvidas mais comuns</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" data-pt="O que está incluído no preço?" data-en="What is included in the price?">
+                        <span data-pt="O que está incluído no preço?" data-en="What is included in the price?"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-pt="Todos os preços incluem motorista profissional licenciado, seguro completo da viatura, combustível para deslocações dentro da localidade, e manutenção básica. Para viagens fora da localidade, aplica-se um suplemento adicional." data-en="All prices include a licensed professional driver, full vehicle insurance, fuel for local trips, and basic maintenance. For out-of-town trips, an additional fee applies.">Todos os preços incluem motorista profissional licenciado, seguro completo da viatura, combustível para deslocações dentro da localidade, e manutenção básica. Para viagens fora da localidade, aplica-se um suplemento adicional.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-pt="O motorista é profissional e experiente?" data-en="Is the driver professional and experienced?">
+                        <span data-pt="O motorista é profissional e experiente?" data-en="Is the driver professional and experienced?"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-pt="Sim, todos os nossos motoristas são profissionais certificados com mais de 10 anos de experiência, formação em segurança rodoviária, e conhecimento aprofundado da região de Cabinda e arredores." data-en="Yes, all our drivers are certified professionals with over 10 years of experience, road safety training, and in-depth knowledge of the Cabinda region and surroundings.">Sim, todos os nossos motoristas são profissionais certificados com mais de 10 anos de experiência, formação em segurança rodoviária, e conhecimento aprofundado da região de Cabinda e arredores.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-pt="Como funciona o processo de reserva?" data-en="How does the booking process work?">
+                        <span data-pt="Como funciona o processo de reserva?" data-en="How does the booking process work?"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-pt="Pode preencher o formulário de contacto ou ligar para +244 923 658 000. Confirmamos a disponibilidade em 24 horas e enviamos um contrato detalhado. O pagamento é feito 50% no momento da reserva e 50% no dia do serviço." data-en="You can fill out the contact form or call +244 923 658 000. We confirm availability within 24 hours and send a detailed contract. Payment is 50% at booking and 50% on the service day.">Pode preencher o formulário de contacto ou ligar para +244 923 658 000. Confirmamos a disponibilidade em 24 horas e enviamos um contrato detalhado. O pagamento é feito 50% no momento da reserva e 50% no dia do serviço.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-pt="Qual é a política de cancelamento?" data-en="What is the cancellation policy?">
+                        <span data-pt="Qual é a política de cancelamento?" data-en="What is the cancellation policy?"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-pt="Cancelamentos com 48 horas de antecedência são reembolsados integralmente. Entre 24-48 horas, reembolso de 50%. Menos de 24 horas, sem reembolso. Para eventos especiais como casamentos, contacte-nos para condições personalizadas." data-en="Cancellations 48 hours in advance are fully refunded. 24-48 hours: 50% refund. Less than 24 hours: no refund. For special events like weddings, contact us for custom terms.">Cancelamentos com 48 horas de antecedência são reembolsados integralmente. Entre 24-48 horas, reembolso de 50%. Menos de 24 horas, sem reembolso. Para eventos especiais como casamentos, contacte-nos para condições personalizadas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-pt="Quais são as características principais das viaturas?" data-en="What are the main features of the vehicles?">
+                        <span data-pt="Quais são as características principais das viaturas?" data-en="What are the main features of the vehicles?"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-pt="Ambas as viaturas (Toyota Land Cruiser V8 e Prado) oferecem ar condicionado, bancos em pele, sistema de som premium, GPS integrado, e máxima segurança. O V8 inclui teto solar panorâmico para maior conforto." data-en="Both vehicles (Toyota Land Cruiser V8 and Prado) offer air conditioning, leather seats, premium sound system, integrated GPS, and maximum safety. The V8 includes a panoramic sunroof for added comfort.">Ambas as viaturas (Toyota Land Cruiser V8 e Prado) oferecem ar condicionado, bancos em pele, sistema de som premium, GPS integrado, e máxima segurança. O V8 inclui teto solar panorâmico para maior conforto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Contacte-nos" data-en="Contact Us">Contacte-nos</h2>
+                <p class="section-subtitle" data-pt="Entre em contacto para reservas e mais informações" data-en="Get in touch for bookings and more information">Entre em contacto para reservas e mais informações</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-pt="Endereço" data-en="Address">Endereço</h4>
+                            <p>Avenida Dr Agostinho Neto<br>Edifício da Sistec, 1º andar<br>Cabinda, Angola</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-pt="Telefone" data-en="Phone">Telefone</h4>
+                            <a href="tel:+244923658000">+244 923 658 000</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-pt="Email" data-en="Email">Email</h4>
+                            <a href="mailto:info@grupoysam.com">info@grupoysam.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/244923658000">+244 923 658 000</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-pt="Website Grupo" data-en="Group Website">Website Grupo</h4>
+                            <a href="https://grupoysam.com/" target="_blank">grupoysam.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 id="contact-form-heading" data-pt="Solicite uma Cotação" data-en="Request a Quote">Solicite uma Cotação</h3>
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-pt="Nome Completo" data-en="Full Name">Nome Completo</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-pt="Email" data-en="Email">Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="phone" data-pt="Telefone" data-en="Phone">Telefone</label>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="vehicle" name="vehicle" required>
+                                    <option value="">--</option>
+                                    <option value="v8">Toyota Land Cruiser V8</option>
+                                    <option value="prado">Toyota Land Cruiser Prado</option>
+                                </select>
+                                <label for="vehicle" data-pt="Viatura" data-en="Vehicle">Viatura</label>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="location" name="location" required>
+                                    <option value="">--</option>
+                                    <option value="local" data-pt="Dentro da localidade" data-en="Within locality">Dentro da localidade</option>
+                                    <option value="outside" data-pt="Fora da localidade" data-en="Outside locality">Fora da localidade</option>
+                                </select>
+                                <label for="location" data-pt="Localização" data-en="Location">Localização</label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="datetime-local" id="pickup-date" name="pickup-date" required>
+                                <label for="pickup-date" data-pt="Data de Recolha" data-en="Pickup Date">Data de Recolha</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="datetime-local" id="return-date" name="return-date" required>
+                                <label for="return-date" data-pt="Data de Devolução" data-en="Return Date">Data de Devolução</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5"></textarea>
+                            <label for="message" data-pt="Mensagem Adicional" data-en="Additional Message">Mensagem Adicional</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn" data-pt="Enviar Pedido" data-en="Send Request">Enviar Pedido</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <h3 data-pt="A Nossa Localização" data-en="Our Location">A Nossa Localização</h3>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.8!2d12.188!3d-5.588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzUnMTYuOCJTIDEywrAxMScxNi44IkU!5e0!3m2!1sen!2s!4v1234567890"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="YSAM Rental Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="contact-modal" aria-hidden="true">
+        <div class="contact-modal__overlay" data-modal-close></div>
+        <div class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-form-heading" tabindex="-1">
+            <button type="button" class="contact-modal__close" data-modal-close aria-label="Close contact form">&times;</button>
+            <div class="contact-modal__body" id="contact-modal-content" role="document"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img id="footer-logo-img" src="https://raw.githubusercontent.com/Almeida2019/images/main/YSAM%20Rental/YSAM%20Rental%20-%20For%20light%20Mode.webp" alt="YSAM Rental - Logo da empresa de aluguer de viaturas de luxo | YSAM Rental - Luxury Car Rental Company Logo">
+                    </div>
+                    <p class="footer-description" data-pt="Serviços premium de aluguer de viaturas de luxo com motorista profissional em Cabinda, Angola." data-en="Premium luxury vehicle rental services with professional driver in Cabinda, Angola.">Serviços premium de aluguer de viaturas de luxo com motorista profissional em Cabinda, Angola.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-pt="Links Rápidos" data-en="Quick Links">Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home" data-pt="Início" data-en="Home">Início</a></li>
+                        <li><a href="#fleet" data-pt="Frota" data-en="Fleet">Frota</a></li>
+                        <li><a href="#services" data-pt="Serviços" data-en="Services">Serviços</a></li>
+                        <li><a href="#pricing" data-pt="Preços" data-en="Pricing">Preços</a></li>
+                        <li><a href="#about" data-pt="Sobre Nós" data-en="About">Sobre Nós</a></li>
+                        <li><a href="#contact" data-pt="Contacto" data-en="Contact">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-pt="Contacto" data-en="Contact">Contacto</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Dr Agostinho Neto, Cabinda</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+244923658000">+244 923 658 000</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@grupoysam.com">info@grupoysam.com</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-pt="Grupo YSAM" data-en="YSAM Group">Grupo YSAM</h4>
+                    <p data-pt="Empresa irmã das Organizações YSAM" data-en="Sister company of Organizações YSAM">Empresa irmã das Organizações YSAM</p>
+                    <a href="https://grupoysam.com/" target="_blank" class="group-link">grupoysam.com</a>
+                    <div class="social-links">
+                        <a href="https://wa.me/244923658000" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 YSAM Rental. <span data-pt="Todos os direitos reservados" data-en="All rights reserved">Todos os direitos reservados</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
